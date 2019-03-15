@@ -1,5 +1,5 @@
-title:               Celeste
-url:                 https://nicoelayda.github.io
+title:               Traefik CLI Reference
+url:                 https://traefik.mattclemente.com
 baseurl:             ""
 
 markdown:            kramdown
@@ -16,9 +16,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:              Matthew J. Clemente
+  url:               mattclemente.com
+  email:             mjclemente@gmail.com
 
 plugins:
   - jekyll-coffeescript

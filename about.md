@@ -4,19 +4,20 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Traefik is fantastic, but the <a href="https://docs.traefik.io/">docs</a> can be hard to navigate.
 </p>
 
-Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
+This sites uses Jekyll's convenient ability to serve [data files](https://jekyllrb.com/docs/datafiles/) to present Traefik's CLI flags in a filterable table.
 
-In addition to using Poole as its foundation, Celeste is also built using the following open-source projects:
+## Data
+You can find the source CSV in the [project Github repo](https://github.com/mjclemente/traefik-reference); it was created using the `--help` output of the Traefik binary.
 
-* [normalize.css](http://necolas.github.io/normalize.css/), a modern, HTML5-ready alternative to CSS resets.
-* [Font Awesome](http://fontawesome.io/), the iconic font and CSS toolkit.
-* [Hover.css](http://ianlunn.github.io/Hover/), a collection of CSS3 powered hover effects.
+## Goal
+To provide beginners with a quick way of determining what Traefik's CLI flags mean.
 
-Celeste is <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by [@nicoelayda](https://github.com/nicoelayda). Learn more and contribute on [GitHub](https://github.com/nicoelayda/celeste).
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/mjclemente/traefik-reference/issues/new).
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/nicoelayda/celeste/issues/new) or [ask me on Twitter](https://twitter.com/nicoelayda).
+## Me
+Hi! I'm [Matthew Clemente](https://mattclemente.com/). When I have the time, I [blog](https://blog.mattclemente.com/), [tweet](https://twitter.com/mjclemente84), and [code](https://github.com/mjclemente).
 
-Thanks for reading!
+I'm not associated with Traefik - just a developer happy to use their offering.

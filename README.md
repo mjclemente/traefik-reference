@@ -1,11 +1,21 @@
-# celeste
+# Traefik CLI Reference
 
-Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
+The [Traefik](https://traefik.io/) binary accepts several hundred flags. You can see them by running `traefik storeconfig --help` or in the text file [`/_data/flags.txt`](https://github.com/mjclemente/traefik-reference/blob/master/_data/flags.txt).
 
-![Celeste Preview](https://user-images.githubusercontent.com/4868132/48317284-981f4080-e62a-11e8-94e4-f3d7db9506a7.png)
+This [site](https://traefik.mattclemente.com) uses Jekyll's convenient ability to serve [data files](https://jekyllrb.com/docs/datafiles/) to present them in a filterable table.
 
-You can check out Celeste in action in [the demo site](https://nicoelayda.github.io/celeste).
+The source CSV is located in [`/_data/cli.csv`](https://github.com/mjclemente/traefik-reference/blob/master/_data/cli.csv).
+
+# Goal
+The goal is to provide beginners with a quick and easy way of determining what these flags mean.
+
+# Contributing
+:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+
+Before putting the work into creating a PR, I'd appreciate it if you opened an issue. That way we can discuss the best way to implement changes/features, before work is done.
+
+Changes should be submitted as Pull Requests on the `develop` branch.
 
 ## License
 
-MIT. See [LICENSE](https://github.com/nicoelayda/celeste/blob/master/LICENSE).
+MIT. See [LICENSE](https://github.com/mjclemente/traefik-reference/blob/master/LICENSE).
