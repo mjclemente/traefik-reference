@@ -1,0 +1,3 @@
+# Redirect default Netlify subdomain to primary domain
+http://festive-kepler-1420ba.netlify.com/* http://traefik.mattclemente.com/:splat 301!
+https://festive-kepler-1420ba.netlify.com/* https://traefik.mattclemente.com/:splat 301!

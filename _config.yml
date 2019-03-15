@@ -1,6 +1,8 @@
 title:               Traefik CLI Reference
 url:                 https://traefik.mattclemente.com
 baseurl:             ""
+include:
+  - _redirects
 
 markdown:            kramdown
 highlighter:         rouge
